@@ -4,4 +4,5 @@ alias vim='nvim'
 alias ll=la
 alias msshkeygen='ssh-keygen -t rsa -f ~/.ssh/id_rsa'
 alias msshkey='nvim ~/.ssh/id_rsa.pub'
+alias sshjmu='ssh jingzhili@10.85.13.36'
 
