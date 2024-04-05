@@ -30,6 +30,10 @@ return {
       ensure_installed = {
           "pyright",
           "lua_ls",
+          "clangd",
+          "neomake",
+          "ltex",
+          "yamlls",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true, -- not the same as ensure_installed
@@ -42,6 +46,7 @@ return {
          "isort", -- python formatter
          "black", -- python formatter
          "pylint", -- python linter
+         "clang-format", --c/c++/java formatter
        },
      })
   end,
