@@ -82,12 +82,6 @@ return {
       on_attach = on_attach,
     })
 
-    -- configure cmake server
-    lspconfig["neomake"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
     -- configure latex server
     lspconfig["ltex"].setup({
       capabilities = capabilities,
