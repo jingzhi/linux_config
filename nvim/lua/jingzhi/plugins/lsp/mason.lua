@@ -31,7 +31,6 @@ return {
           "pyright",
           "lua_ls",
           "clangd",
-          "neomake",
           "ltex",
           "yamlls",
       },
