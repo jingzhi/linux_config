@@ -20,10 +20,11 @@ return {
 
       -- set keybinds
       opts.desc = "Show LSP references"
+      -- opts.jump_type = "never"
       keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
 
-      opts.desc = "Go to declaration"
-      keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
+      -- opts.desc = "Go to declaration"
+      -- keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
 
       opts.desc = "Show LSP definitions"
       keymap.set("n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts) -- show lsp definitions
